@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 800px;
+    
+}
+
+
+.categories-container {
+    margin: 100px;
+    border: 1px solid;
+}
+
+.category-list,
+.subcategory-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.category-list li,
+.subcategory-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.category-list li:hover,
+.subcategory-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.category-list i,
+.subcategory-list i {
+    margin-right: 10px;
+}
+
+.subcategory-list {
+    margin-top: 20px;
+}
+
+/* Add this to your styles.css file or in a style tag within the head of your HTML file */
+
+.category-list li {
+    border: 1px solid #ccc; /* Add a border around each li element */
+    padding: 10px; /* Add some padding to the li elements for spacing */
+/* Add some margin for spacing between each li element */
+    border-radius: 5px; /* Add rounded corners to the border */
+    display: flexbox; /* Use flexbox for better alignment */
+    align-items: center; /* Align content vertically in the center */
+}
+
+.category-list li i {
+    margin-right: 10px; /* Add some margin to the right of the icon for spacing */
+}
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.categories-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-list h3 {
+    text-align: center;
+}
+
+.category-list li {
+    margin: 10px 0;
+}
+
+.category-list li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.category-list li a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    min-width: 150px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #0f0e0e;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}
+
+.bi-caret-right{
+   text-align: center;
+    
+}
+
+
